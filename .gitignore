@@ -12,5 +12,5 @@ user_settings.txt
 
 images
 
-src/main/java/server/Constants.java
+/src/main/java/server/Constants.java
 Constants.java
