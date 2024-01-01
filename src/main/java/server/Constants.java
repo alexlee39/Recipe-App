@@ -32,7 +32,7 @@ protected static final String API_KEY =
 "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";
 protected static final String MODEL = "text-davinci-003";
 protected static final int MAX_TOKENS = 300;
-
+//hi 
 protected static final String DALLE_MODEL = "dall-e-2";
 protected static final String DALLE_API_ENDPOINT =
   "https://api.openai.com/v1/images/generations";
