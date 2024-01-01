@@ -11,3 +11,5 @@ recording.wav
 user_settings.txt
 
 images
+
+src/main/java/server/Constants.java
