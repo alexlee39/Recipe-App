@@ -21,6 +21,8 @@ import org.json.JSONObject;
 public class ChatGptReqHandler implements HttpHandler {
 
   private String API_KEY = Constants.API_KEY;
+  protected static final String GPT_API_ENDPOINT =
+  "https://api.openai.com/v1/completions";
   protected static final String MODEL = "text-davinci-003";
   protected static final int MAX_TOKENS = 300;
   protected static final String DALLE_MODEL = "dall-e-2";
@@ -75,7 +77,7 @@ public class ChatGptReqHandler implements HttpHandler {
       // Create the request object
       HttpRequest request = HttpRequest
         .newBuilder()
-        .uri(new URI(API_ENDPOINT))
+        .uri(new URI(GPT_API_ENDPOINT))
         .header("Content-Type", "application/json")
         .header("Authorization", String.format("Bearer %s", API_KEY))
         .POST(HttpRequest.BodyPublishers.ofString(requestBody.toString()))
