@@ -23,7 +23,7 @@ import org.json.JSONObject;
 public class MongoDbOps {
   private static final String database = "pantryPal";
   private static final String collection = "recipesByUserId";
-  // private String uri = BuildConfig.PantryPal_MongoDBURI;
+  private static final String uri = Constants.uri;
   private JsonWriterSettings prettyPrint = JsonWriterSettings
     .builder()
     .indent(true)
