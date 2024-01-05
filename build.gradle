@@ -37,18 +37,18 @@ dependencies {
 // buildConfigField("String", "PantryPal_OpenAIAPIKEY", "\"${PantryPal_OpenAIAPIKEY}\"")
 // buildConfigField("String", "PantryPal_MongoDBURI", "\"${PantryPal_MongoDBURI}\"")
 
-buildTypes {
-        debug{
-            buildConfigField 'String', "ApiKey", PantryPal_OpenAIAPIKEY
-            buildConfigField 'String', 'URI' , PantryPal_MongoDBURI
-        }
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField 'String', "ApiKey", PantryPal_OpenAIAPIKEY
-            buildConfigField 'String', 'URI' , PantryPal_MongoDBURI
-        }
-    }
+// buildTypes {
+//         debug{
+//             buildConfigField 'String', "ApiKey", PantryPal_OpenAIAPIKEY
+//             buildConfigField 'String', 'URI' , PantryPal_MongoDBURI
+//         }
+//         release {
+//             minifyEnabled false
+//             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//             buildConfigField 'String', "ApiKey", PantryPal_OpenAIAPIKEY
+//             buildConfigField 'String', 'URI' , PantryPal_MongoDBURI
+//         }
+//     }
     
 // Apply a specific Java toolchain to ease working on different environments.
 java {
