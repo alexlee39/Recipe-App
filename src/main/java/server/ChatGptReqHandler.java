@@ -20,6 +20,13 @@ import org.json.JSONObject;
 
 public class ChatGptReqHandler implements HttpHandler {
 
+  private String API_KEY = BuildConfig.PantryPal_OpenAIAPIKEY;
+  protected static final String MODEL = "text-davinci-003";
+  protected static final int MAX_TOKENS = 300;
+  protected static final String DALLE_MODEL = "dall-e-2";
+  protected static final String DALLE_API_ENDPOINT =
+  "https://api.openai.com/v1/images/generations";
+
   private final Helper HELPER = Helper.getInstance();
   private int statusCode = 200;
 
@@ -122,7 +129,7 @@ public class ChatGptReqHandler implements HttpHandler {
       .newBuilder()
       .uri(URI.create(DALLE_API_ENDPOINT))
       .header("Content-Type", "application/json")
-      .header("Authorization", String.format("Bearer %s", DALLE_API_KEY))
+      .header("Authorization", String.format("Bearer %s", API_KEY))
       .POST(HttpRequest.BodyPublishers.ofString(requestBody.toString()))
       .build();
 

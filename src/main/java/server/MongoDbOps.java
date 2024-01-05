@@ -21,11 +21,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class MongoDbOps {
-
-  // private static final String uri =
-  //   "mongodb+srv://fangzhongli0:dm3DeEs1C7UGwbOn@cluster0.zd5oxwj.mongodb.net/?retryWrites=true&w=majority";
-  // private static final String database = "pantryPal";
-  // private static final String collection = "recipesByUserId";
+  private static final String database = "pantryPal";
+  private static final String collection = "recipesByUserId";
+  private String uri = BuildConfig.PantryPal_MongoDBURI;
   private JsonWriterSettings prettyPrint = JsonWriterSettings
     .builder()
     .indent(true)

@@ -12,4 +12,6 @@ user_settings.txt
 
 images
 
-src/main/java/server/Constants.java
+gradle.properties 
+
+Constants.java
