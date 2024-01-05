@@ -20,7 +20,7 @@ import org.json.JSONObject;
 
 public class ChatGptReqHandler implements HttpHandler {
 
-  private String API_KEY = BuildConfig.PantryPal_OpenAIAPIKEY;
+  // private String API_KEY = BuildConfig.PantryPal_OpenAIAPIKEY;
   protected static final String MODEL = "text-davinci-003";
   protected static final int MAX_TOKENS = 300;
   protected static final String DALLE_MODEL = "dall-e-2";
