@@ -21,8 +21,6 @@ public final class Constants {
   protected static final String USER_EXISTS = "ERROR: Username Already Exists";
   protected static final String WRONG_AUTH = "ERROR: Incorrect Username/Password";
 
-  protected static final String uri =
-  "mongodb+srv://fangzhongli0:dm3DeEs1C7UGwbOn@cluster0.zd5oxwj.mongodb.net/?retryWrites=true&w=majority";
   protected static final String database = "pantryPal";
   protected static final String collection = "recipesByUserId";
 
