@@ -19,6 +19,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env: API_KEY: ${{ secrets.OPENAI_APIKEY}}
+    env: URI : ${{ secrets.MONGODB_URI}}
+     
     steps:
       - uses: actions/checkout@v3
 

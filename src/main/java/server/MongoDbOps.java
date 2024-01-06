@@ -23,7 +23,9 @@ import org.json.JSONObject;
 public class MongoDbOps {
   private static final String database = "pantryPal";
   private static final String collection = "recipesByUserId";
-  private static final String uri = Constants.uri;
+  private static final String uri ="${URI}";
+    // private static final String uri = Constants.uri;
+
   private JsonWriterSettings prettyPrint = JsonWriterSettings
     .builder()
     .indent(true)

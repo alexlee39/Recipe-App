@@ -19,8 +19,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class ChatGptReqHandler implements HttpHandler {
-
-  private String API_KEY = Constants.API_KEY;
+  private String API_KEY = "${API_KEY}"; 
+  // private String API_KEY = Constants.API_KEY;
   protected static final String GPT_API_ENDPOINT =
   "https://api.openai.com/v1/completions";
   protected static final String MODEL = "text-davinci-003";
