@@ -1,62 +1,11 @@
+# This Recipe Application is a Recipe Generator called Pantry Pal.
+Authors: Alexander Lee, FangZhong Li, Ryan Pacquia, Bryant Tan, Christopherian Sulaiman 
 
--# PantryPal Team 32
+## This Application using Open AI's API's including ChatGPT, Whisper,and DALL-E. It also is built upon in an Agile Environment consisting of 5 team members listed above.
+### Currently it only supports a web-application, but the code-based is built on the premise of expanding to Web and Mobile Applications through the MVC Design Pattern. 
+### This applications incorporates many different Design Patterns including Strategy, Observer, and Builder Patterns.
 
-
-Clone the repo
-
-Create .vscode folder in root directory
-
-In .vscode folder, create launch.json and paste the following, ensure you change your javaFX lib file path
-
-	{
-
-		"version": "0.2.0",
-		
-		"configurations": [
-
-			{
-
-				"type": "java",
-
-				"name": "PantryPal",
-
-				"request": "launch",
-
-				"mainClass": "client.PantryPal",
-
-				"vmArgs": "--module-path <path> --add-modules javafx.controls,javafx.fxml"
-
-			},
-
-			{
-
-				"type": "java",
-
-				"name": "Server",
-
-				"request": "launch",
-
-				"mainClass": "server.Server",
-
-			},
-
-		]
-
-	}
-
-	  
-
-In .vscode folder, create settings.json file, and paste the following code
-
-	{
-
-		"java.configuration.updateBuildConfiguration": "automatic",
-
-		"java.compile.nullAnalysis.mode": "automatic"
-
-	}
-
-How to run Pantry pal 2:
+How to run Pantry Pal Application:
 
 1. Go to "Run and Debug" tab.
 2. Run the Server by picking Server option in the dropdown tab and click the run icon. If successfully done, the console will display "Server started on port 8100"
