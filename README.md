@@ -13,8 +13,10 @@ How to run Pantry Pal Application:
 4. Go to line 13 where it says vmArgs and change the <AddFilePathOfProjectHere> to the Path of your project (For windows you can do this by opening the javafx folder and right clicking the lib folder and Pressing 'Copy Path' and pasting that at the <AddFilePathOfProjectHere>) 
 5. Go to "Run and Debug" tab in the Side Bar of your VSCode: 
 ![](VSCode.png "Run And Debug Picture")
+
 6. Run the Server by picking Server option in the dropdown tab (which is next to the green arrow in the top left) and click the run icon. If successfully done, the console will display "Server started on port 8100"
 ![](VSCodeStep6.png "Run And Debug Picture")
+
 7. Run the Pantry pal 2 application by picking Pantry pal option in the dropdown tab and click the run icon. If successfully done, the application will launch.
 8. In this stage, you are prompted to log in. Create an account if you haven't and log in if you haven't.
 9. When you are logged-in you are able to see "Create new recipe", "Filter by", "Sort A-Z", "Sort Z-A", "Sort by latest", "Sort by earliest" and "Log out" button. Once your account has saved
