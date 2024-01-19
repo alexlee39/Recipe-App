@@ -1,7 +1,2 @@
-exit to login page when server is down
-display server error on screen
-css
-
-sorting logic
-
-take off logout button in detail, can leave it for now
+Alex current javafx files: 
+C:/Users/alexa/OneDrive/Desktop/Projects/RecipeApp/javafx/openjfx-21.0.1_windows-x64_bin-sdk/lib 

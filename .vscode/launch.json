@@ -10,7 +10,8 @@
             "name": "PantryPal",
             "request": "launch",
             "mainClass": "client.PantryPal",
-            "vmArgs": "--module-path 'C:/Users/alexa/OneDrive/Desktop/Projects/RecipeApp/javafx/openjfx-21.0.1_windows-x64_bin-sdk/lib' --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path '<AddFilePathOfProjectHere>' --add-modules javafx.controls,javafx.fxml" 
+            // Change the module path in the line above between --module-path '<CHANGE HERE>' --add-modules ...
 
         },
         {
